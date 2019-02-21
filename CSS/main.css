@@ -170,3 +170,15 @@ text-decoration: none;
     font-family: 'Big Caslon'; 
   
 }
+
+.gif {
+  display: flex;
+  background: white;
+  margin: 10px;
+  color: black;
+  font-weight: bold;
+  font-size: 3em;
+  text-align: center;
+  justify-content: center;
+    font-family: 'Big Caslon';
+}
