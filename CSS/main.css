@@ -95,6 +95,7 @@ justify-content: space-between;
   border-left:.5px solid black;
   border-right:.5px solid black;
   flex-direction: column;
+  min-width: 200px;
 }
 
 #header-box {
@@ -104,7 +105,8 @@ justify-content: space-between;
   width: 100%;
   justify-content: flex-star;
   align-content: flex-start;
-  font-family: 'Big Caslon'; 
+  font-family: 'Big Caslon';
+  min-height: 25px;
 }
 
 #end-matter {
@@ -166,7 +168,6 @@ text-decoration: none;
   text-align: center;
   justify-content: center;
   flex-direction: column;
-  height: 100%;
     font-family: 'Big Caslon'; 
   
 }
@@ -195,4 +196,13 @@ text-decoration: none;
   text-align: center;
   justify-content: center;
     font-family: 'Big Caslon';
+}
+#confetti{
+	background: #000;
+	height: 100%;
+	left: 0px;
+	position: fixed;
+	top: 0px;
+	width: 100%;
+	z-index: -1;
 }
