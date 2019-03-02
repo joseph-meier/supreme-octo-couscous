@@ -206,3 +206,17 @@ text-decoration: none;
 	width: 100%;
 	z-index: -1;
 }
+
+.aries-horoscope {
+  display: flex;
+  background: white;
+  margin: 10px;
+  color: black;
+  font-weight: bold;
+  font-size: 3em;
+  text-align: center;
+  justify-content: center;
+  flex-direction: column;
+    font-family: 'Big Caslon'; 
+  
+}
